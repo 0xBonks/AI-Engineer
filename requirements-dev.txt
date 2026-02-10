@@ -1,0 +1,80 @@
+# ==============================================================================
+# AI Engineer Learning Repository - Development Dependencies
+# ==============================================================================
+# Last updated: 2026-02-10
+# Python: 3.11+
+#
+# These dependencies are for development, testing, and code quality only.
+# Not required for running exercises or learning the curriculum.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Code Formatting & Linting
+# ------------------------------------------------------------------------------
+black==24.1.1  # Opinionated code formatter (PEP 8 compliant)
+ruff==0.1.15  # Fast Python linter (replacement for flake8, isort, etc.)
+isort==5.13.2  # Import sorting (if not using ruff for this)
+
+# ------------------------------------------------------------------------------
+# Type Checking
+# ------------------------------------------------------------------------------
+mypy==1.8.0  # Static type checker for Python
+types-requests==2.31.0.20240125  # Type stubs for requests library
+
+# ------------------------------------------------------------------------------
+# Testing & Coverage
+# ------------------------------------------------------------------------------
+pytest-xdist==3.5.0  # Run tests in parallel
+pytest-mock==3.12.0  # Mocking support for pytest
+pytest-timeout==2.2.0  # Test timeout support
+coverage[toml]==7.4.1  # Code coverage measurement
+
+# ------------------------------------------------------------------------------
+# Security Scanning
+# ------------------------------------------------------------------------------
+pip-audit==2.7.0  # Audit dependencies for known security vulnerabilities
+safety==3.0.1  # Check dependencies against security advisories
+bandit==1.7.6  # Security linter for Python code
+
+# ------------------------------------------------------------------------------
+# Pre-commit Hooks
+# ------------------------------------------------------------------------------
+pre-commit==3.6.0  # Git pre-commit hook framework for quality checks
+
+# ------------------------------------------------------------------------------
+# Documentation
+# ------------------------------------------------------------------------------
+mkdocs==1.5.3  # Documentation site generator (if needed later)
+mkdocs-material==9.5.6  # Material theme for MkDocs
+
+# ------------------------------------------------------------------------------
+# Development Utilities
+# ------------------------------------------------------------------------------
+ipython==8.20.0  # Enhanced interactive Python shell
+ipdb==0.13.13  # IPython-enabled debugger
+rich==13.7.0  # Rich text and beautiful formatting in terminal
+python-dotenv-cli==0.1.0  # CLI for python-dotenv
+
+# ------------------------------------------------------------------------------
+# Notebook Development
+# ------------------------------------------------------------------------------
+nbconvert==7.14.2  # Convert Jupyter notebooks to other formats
+nbformat==5.9.2  # Jupyter notebook format support
+jupyter-contrib-nbextensions==0.7.0  # Community extensions for Jupyter
+
+# ==============================================================================
+# Installation Instructions:
+# ==============================================================================
+# Install development dependencies:
+#   pip install -r requirements-dev.txt
+#
+# Setup pre-commit hooks (recommended):
+#   pre-commit install
+#
+# Run code quality checks:
+#   black .
+#   ruff check .
+#   mypy .
+#   pytest
+#
+# ==============================================================================

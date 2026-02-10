@@ -1,0 +1,133 @@
+# ==============================================================================
+# AI Engineer Learning Repository - Core Dependencies
+# ==============================================================================
+# Last updated: 2026-02-10
+# Python: 3.11+
+# 
+# Version Pinning Strategy:
+# - All versions pinned with == for reproducibility
+# - Update dependencies monthly, test thoroughly before updating
+# - Check for security advisories: pip-audit or safety
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# OpenAI SDK
+# ------------------------------------------------------------------------------
+openai==1.12.0  # OpenAI API client (GPT-4, embeddings, DALL-E, Whisper)
+
+# ------------------------------------------------------------------------------
+# Anthropic SDK (Optional - for comparisons)
+# ------------------------------------------------------------------------------
+anthropic==0.18.1  # Claude API client for model comparisons
+
+# ------------------------------------------------------------------------------
+# Google Generative AI
+# ------------------------------------------------------------------------------
+google-generativeai==0.3.2  # Gemini API client
+
+# ------------------------------------------------------------------------------
+# Hugging Face Ecosystem
+# ------------------------------------------------------------------------------
+transformers==4.37.2  # State-of-the-art NLP models and pipelines
+huggingface-hub==0.20.3  # Download and manage models from Hugging Face Hub
+sentence-transformers==2.3.1  # Generate embeddings using pre-trained models
+accelerate==0.26.1  # Optimize model loading and inference
+
+# ------------------------------------------------------------------------------
+# Vector Databases
+# ------------------------------------------------------------------------------
+chromadb==0.4.22  # Primary vector database for embeddings storage
+pinecone-client==3.0.3  # Pinecone vector database (advanced modules)
+weaviate-client==3.26.2  # Weaviate vector database (alternative option)
+
+# ------------------------------------------------------------------------------
+# AI Frameworks & Orchestration
+# ------------------------------------------------------------------------------
+langchain==0.1.6  # Framework for LLM applications (RAG, agents)
+langchain-openai==0.0.5  # LangChain OpenAI integrations
+langchain-community==0.0.19  # LangChain community integrations
+llama-index==0.9.48  # Data framework for LLM applications (RAG focused)
+
+# ------------------------------------------------------------------------------
+# Token Management & Cost Tracking
+# ------------------------------------------------------------------------------
+tiktoken==0.5.2  # OpenAI's token counting library for accurate cost estimation
+
+# ------------------------------------------------------------------------------
+# Data Validation & Configuration
+# ------------------------------------------------------------------------------
+pydantic==2.6.1  # Data validation using Python type hints
+pydantic-settings==2.1.0  # Settings management with Pydantic
+python-dotenv==1.0.1  # Load environment variables from .env files
+
+# ------------------------------------------------------------------------------
+# HTTP & API Utilities
+# ------------------------------------------------------------------------------
+requests==2.31.0  # HTTP library for API calls
+httpx==0.26.0  # Async HTTP client (used by OpenAI SDK)
+aiohttp==3.9.3  # Async HTTP client/server framework
+
+# ------------------------------------------------------------------------------
+# Data Processing & Analysis
+# ------------------------------------------------------------------------------
+numpy==1.26.4  # Numerical computing (required by many AI libraries)
+pandas==2.2.0  # Data manipulation and analysis
+faiss-cpu==1.7.4  # Facebook AI Similarity Search (CPU version for vector search)
+
+# ------------------------------------------------------------------------------
+# Jupyter & Interactive Development
+# ------------------------------------------------------------------------------
+jupyter==1.0.0  # Jupyter metapackage
+jupyterlab==4.0.11  # JupyterLab interface
+ipywidgets==8.1.1  # Interactive widgets for Jupyter
+notebook==7.0.7  # Classic Jupyter Notebook
+
+# ------------------------------------------------------------------------------
+# Testing & Quality Assurance
+# ------------------------------------------------------------------------------
+pytest==8.0.0  # Testing framework
+pytest-asyncio==0.23.4  # Async support for pytest
+pytest-cov==4.1.0  # Coverage reporting
+
+# ------------------------------------------------------------------------------
+# Utilities & Helpers
+# ------------------------------------------------------------------------------
+tenacity==8.2.3  # Retry logic with exponential backoff
+tqdm==4.66.1  # Progress bars
+colorama==0.4.6  # Colored terminal output (cross-platform)
+python-json-logger==2.0.7  # JSON logging for production systems
+
+# ------------------------------------------------------------------------------
+# File Format Support
+# ------------------------------------------------------------------------------
+PyPDF2==3.0.1  # PDF file handling for RAG systems
+python-docx==1.1.0  # Word document handling
+openpyxl==3.1.2  # Excel file handling
+
+# ------------------------------------------------------------------------------
+# Security & Safety
+# ------------------------------------------------------------------------------
+# Note: For security scanning, use pip-audit or safety (in requirements-dev.txt)
+
+# ==============================================================================
+# Installation Instructions:
+# ==============================================================================
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#
+# 2. Install requirements:
+#    pip install --upgrade pip
+#    pip install -r requirements.txt
+#
+# 3. Verify installation:
+#    python validate_env.py
+#
+# ==============================================================================
+# GPU Support (Optional):
+# ==============================================================================
+# For GPU support with transformers and local model inference, install:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# Note: PyTorch not included by default due to large size and platform-specific builds
+# ==============================================================================

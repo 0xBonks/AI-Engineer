@@ -35,10 +35,20 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Repository structure exists with numbered module folders following consistent layout (README, notebooks/, exercises/, tests/, solutions/)
   4. .env.example template provided with clear instructions for all required API keys
   5. CI/CD pipeline runs automated tests on every commit to catch breaking dependency changes
-**Plans**: TBD
+**Plans**: See .planning/phase-01-plans.md
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01: Create Base Repository Structure
+- [ ] 01-02: Create Requirements and Dependency Management
+- [ ] 01-03: Create .env Template and Configuration
+- [ ] 01-04: Create Docker Development Environment
+- [ ] 01-05: Create Environment Validation Script
+- [ ] 01-06: Create Cost Tracking Utilities
+- [ ] 01-07: Create API Helper Utilities
+- [ ] 01-08: Create CI/CD Pipeline
+- [ ] 01-09: Create Main Repository README
+- [ ] 01-10: Create Initial Module README Templates
+- [ ] 01-11: Integration Testing and Documentation Review
 
 ### Phase 2: Python Fundamentals for AI
 **Goal**: Learners master Python patterns essential for AI engineering (async, types, error handling)
@@ -185,7 +195,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Environment Setup & Infrastructure | 0/TBD | Not started | - |
+| 1. Environment Setup & Infrastructure | 0/11 | Ready to execute | - |
 | 2. Python Fundamentals for AI | 0/TBD | Not started | - |
 | 3. AI Fundamentals & OpenAI API | 0/TBD | Not started | - |
 | 4. Open Source AI & Safety | 0/TBD | Not started | - |
