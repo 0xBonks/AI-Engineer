@@ -21,6 +21,11 @@ openai==1.12.0  # OpenAI API client (GPT-4, embeddings, DALL-E, Whisper)
 anthropic==0.18.1  # Claude API client for model comparisons
 
 # ------------------------------------------------------------------------------
+# LiteLLM - Unified API for multiple LLM providers
+# ------------------------------------------------------------------------------
+litellm==1.30.0  # Unified interface for OpenAI, Anthropic, Azure, and more
+
+# ------------------------------------------------------------------------------
 # Google Generative AI
 # ------------------------------------------------------------------------------
 google-generativeai==0.3.2  # Gemini API client
@@ -37,13 +42,13 @@ accelerate==0.26.1  # Optimize model loading and inference
 # Vector Databases
 # ------------------------------------------------------------------------------
 chromadb==0.4.22  # Primary vector database for embeddings storage
-pinecone-client==3.0.3  # Pinecone vector database (advanced modules)
+pinecone>=8.0.0  # Pinecone vector database (advanced modules) - renamed from pinecone-client
 weaviate-client==3.26.2  # Weaviate vector database (alternative option)
 
 # ------------------------------------------------------------------------------
 # AI Frameworks & Orchestration
 # ------------------------------------------------------------------------------
-langchain==0.1.6  # Framework for LLM applications (RAG, agents)
+langchain==1.2.9  # Framework for LLM applications (RAG, agents)
 langchain-openai==0.0.5  # LangChain OpenAI integrations
 langchain-community==0.0.19  # LangChain community integrations
 llama-index==0.9.48  # Data framework for LLM applications (RAG focused)
@@ -70,9 +75,9 @@ aiohttp==3.9.3  # Async HTTP client/server framework
 # ------------------------------------------------------------------------------
 # Data Processing & Analysis
 # ------------------------------------------------------------------------------
-numpy==1.26.4  # Numerical computing (required by many AI libraries)
+numpy==2.4.2  # Numerical computing (required by many AI libraries)
 pandas==2.2.0  # Data manipulation and analysis
-faiss-cpu==1.7.4  # Facebook AI Similarity Search (CPU version for vector search)
+faiss-cpu==1.13.2  # Facebook AI Similarity Search (CPU version for vector search)
 
 # ------------------------------------------------------------------------------
 # Jupyter & Interactive Development
