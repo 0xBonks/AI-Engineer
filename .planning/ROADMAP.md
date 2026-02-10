@@ -82,10 +82,17 @@ Plans:
   3. Learner can apply prompt engineering techniques (few-shot, chain-of-thought, system prompts) to improve outputs
   4. Learner can calculate token usage, optimize prompts for cost, and implement rate limiting
   5. Learner can use OpenAI Playground effectively for experimentation and fine-tuning workflows
-**Plans**: TBD
+**Plans**: See .planning/phase-03-plans.md
 
 Plans:
-- [ ] 03-01: TBD
+- [ ] 03-01: AI Fundamentals - Pre-trained Models & LLM Concepts
+- [ ] 03-02: Chat Completions API Basics
+- [ ] 03-03: Streaming Responses
+- [ ] 03-04: Prompt Engineering Techniques
+- [ ] 03-05: Token Management & Cost Optimization
+- [ ] 03-06: OpenAI Playground & Experimentation
+- [ ] 03-07: Advanced API Features
+- [ ] 03-08: Integration & Real-World Applications
 
 ### Phase 4: Open Source AI & Safety
 **Goal**: Learners can work with open source models locally and implement AI safety best practices
@@ -204,7 +211,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 |-------|----------------|--------|-----------|
 | 1. Environment Setup & Infrastructure | 11/11 | ✅ Complete | 2026-02-10 |
 | 2. Python Fundamentals for AI | 8/8 | ✅ Complete | 2026-02-10 |
-| 3. AI Fundamentals & OpenAI API | 0/TBD | Not started | - |
+| 3. AI Fundamentals & OpenAI API | 0/8 | 📋 Planned | - |
 | 4. Open Source AI & Safety | 0/TBD | Not started | - |
 | 5. Embeddings & Vector Databases | 0/TBD | Not started | - |
 | 6. RAG Systems | 0/TBD | Not started | - |
