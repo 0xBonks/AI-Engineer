@@ -60,10 +60,17 @@ Plans:
   3. Learner can implement production-grade logging and error handling patterns
   4. Learner can interact with REST APIs, parse JSON, and handle file I/O for common AI data formats
   5. Learner understands OOP patterns (classes, decorators, context managers) used in AI frameworks
-**Plans**: TBD
+**Plans**: See .planning/phase-02-plans.md
 
 Plans:
-- [ ] 02-01: TBD
+- [ ] 02-01: Async Programming Module
+- [ ] 02-02: Type Safety Module
+- [ ] 02-03: Error Handling and Logging Module
+- [ ] 02-04: Environment and Package Management Module
+- [ ] 02-05: API Interaction Patterns Module
+- [ ] 02-06: Data Handling Module
+- [ ] 02-07: OOP and Advanced Patterns Module
+- [ ] 02-08: Integration and Testing
 
 ### Phase 3: AI Fundamentals & OpenAI API
 **Goal**: Learners understand LLM concepts and can build applications using OpenAI APIs with cost optimization
@@ -196,7 +203,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Environment Setup & Infrastructure | 11/11 | ✅ Complete | 2026-02-10 |
-| 2. Python Fundamentals for AI | 0/TBD | Not started | - |
+| 2. Python Fundamentals for AI | 0/8 | 📋 Planned | - |
 | 3. AI Fundamentals & OpenAI API | 0/TBD | Not started | - |
 | 4. Open Source AI & Safety | 0/TBD | Not started | - |
 | 5. Embeddings & Vector Databases | 0/TBD | Not started | - |
