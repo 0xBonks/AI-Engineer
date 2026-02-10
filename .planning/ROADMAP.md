@@ -85,7 +85,7 @@ Plans:
 **Plans**: See .planning/phase-03-plans.md
 
 Plans:
-- [ ] 03-01: AI Fundamentals - Pre-trained Models & LLM Concepts
+- [x] 03-01: AI Fundamentals - Pre-trained Models & LLM Concepts
 - [ ] 03-02: Chat Completions API Basics
 - [ ] 03-03: Streaming Responses
 - [ ] 03-04: Prompt Engineering Techniques
