@@ -87,7 +87,7 @@ Plans:
 Plans:
 - [x] 03-01: AI Fundamentals - Pre-trained Models & LLM Concepts
 - [x] 03-02: Chat Completions API Basics
-- [ ] 03-03: Streaming Responses
+- [x] 03-03: Streaming Responses
 - [ ] 03-04: Prompt Engineering Techniques
 - [ ] 03-05: Token Management & Cost Optimization
 - [ ] 03-06: OpenAI Playground & Experimentation
