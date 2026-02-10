@@ -53,7 +53,7 @@ mkdocs-material==9.5.6  # Material theme for MkDocs
 ipython==8.20.0  # Enhanced interactive Python shell
 ipdb==0.13.13  # IPython-enabled debugger
 rich==13.7.0  # Rich text and beautiful formatting in terminal
-python-dotenv-cli==0.1.0  # CLI for python-dotenv
+python-dotenv-cli==1.2.1  # CLI for python-dotenv
 
 # ------------------------------------------------------------------------------
 # Notebook Development
